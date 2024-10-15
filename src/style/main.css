@@ -1,0 +1,273 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	background: #000;
+}
+
+body {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
+
+header {
+	padding: 30px 0 0;
+	width: 100%;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+button {
+	cursor: pointer;
+}
+
+a {
+	color: #00FF11;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+b {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: #BCD9FF;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: #C2CCCB;
+	text-align: left;
+	text-decoration: underline;
+}
+
+.grp {
+	display: flex;
+	gap: 10px;
+}
+
+h4 {
+	font-family: Roboto Mono;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 23.74px;
+	text-align: left;
+}
+
+span {
+	font-family: Orbitron;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 21px;
+	text-align: left;
+	color: #509AF9;
+}
+
+h2 {
+	font-family: Orbitron;
+	font-size: 15px;
+	font-weight: 800;
+	line-height: 18.81px;
+	text-align: center;
+}
+
+.header_content {
+	border: 3px solid #509AF9;
+	width: 100%;
+	padding: 10px 20px;
+    border-radius: 0 35px;
+}
+
+.logo_text {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 700;
+	font-size: 21px;
+	color: #509AF9;
+}
+
+#head_view {
+	display: grid;
+	gap:  25px;
+	background-image: linear-gradient(165deg, #434343 110%, #898989 29%, #192030 66%, #aea8a8 100%), url("../assets/asset_1.png");
+	background-blend-mode: multiply;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: Gradient 15s ease infinite;
+    padding: 0 15px;
+}
+
+.entry_title {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 900;
+	font-size: 40px;
+	color: #BCD9FF;
+	text-align: center;
+}
+
+.info_title {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: #509AF9;
+	text-align: center;
+	line-height: 31px;
+}
+
+.social {
+	border: 1.5px solid #000;
+	background: linear-gradient(267.98deg, #00FF11 0.74%, #51FF00 99.26%);
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 800;
+	font-size: 20px;
+	box-shadow: 0px 0px 19.1px 0px #00FF11CC;
+	text-decoration: underline;
+	padding: 10px;
+	border-radius: 15px;
+	width: 47%;
+}
+
+.copy {
+	font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, Tahoma, Verdana, sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color: #C2CCCB;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.separator {
+	height: 20px;
+    box-shadow: 0px 0px 35px 20px #000000;
+    background: #000000;
+    width: 100%;
+}
+
+#main_view {
+	display: grid;
+	background-image: linear-gradient(159deg, #373737 10%, #ffffff 29%, #004eff 36%, #efe0e0 100%), url(../assets/asset_3.png);
+	background-blend-mode: multiply;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: Gradient 15s ease infinite;
+    padding: 0 15px;
+}
+
+.main_group {
+	width: 100%;
+
+}
+
+.group {
+	display: grid;
+	padding: 10px;
+	border: 3px solid #509AF9;
+    border-radius: 35px 0;
+    gap: 15px;
+    backdrop-filter: blur(3px);
+}
+
+.text_group {
+	display: grid;
+	padding: 10px;
+    gap: 15px;
+    backdrop-filter: blur(2px);
+}
+
+.inf_t {
+	display: grid;
+	gap: 15px;
+}
+
+.buy {
+	border: 1.5px solid #000;
+	background: linear-gradient(90deg, #FF9D00 0%, #BBFF00 100%);
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 800;
+	font-size: 20px;
+	height: 50px;
+	box-shadow: 0px 0px 21.86px 0px #FF9D00;
+	text-decoration: underline;
+	border-radius: 15px;
+	width: 205px;
+}
+
+#other_view {
+	display: grid;
+	background-blend-mode: multiply;
+	background-image: linear-gradient(159deg, #373737 10%, #ffffff 29%, #004eff 36%, #efe0e0 100%), url(../assets/asset_3.png);
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: Gradient 15s ease infinite;
+    padding: 0 15px;
+}
+
+#about_view {
+	display: grid;
+	background-blend-mode: multiply;
+	background-image: linear-gradient(159deg, #373737 10%, #ffffff 29%, #004eff 36%, #efe0e0 100%), url(../assets/asset_3.png);
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: Gradient 15s ease infinite;
+    padding: 0 15px;
+    gap: 15px;
+}
+
+#map {
+	display: block;
+	max-width: 1050px;
+}
+
+#about {
+	display: none;
+	max-width: 1050px;
+}
+
+
+@keyframes enter-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.enter {
+  animation: enter-animation 1s ease;
+}
+
+.m_grp {
+	display: grid;
+	gap:  5px;
+}
+
+.n_grp {
+	display: grid;
+	width: 100%;
+	gap: 5px;
+	padding: 0 5%;
+}
+
